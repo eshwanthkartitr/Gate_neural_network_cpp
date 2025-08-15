@@ -1,0 +1,102 @@
+{
+  "gates": [
+    {
+      "name": "OR",
+      "inputs": [
+        [0, 0],
+        [0, 1],
+        [1, 0],
+        [1, 1]
+      ],
+      "outputs": [
+        [0],
+        [1],
+        [1],
+        [1]
+      ],
+      "epochs": 2000,
+      "learning_rate": 0.1
+    },
+    {
+      "name": "AND",
+      "inputs": [
+        [0, 0],
+        [0, 1],
+        [1, 0],
+        [1, 1]
+      ],
+      "outputs": [
+        [0],
+        [0],
+        [0],
+        [1]
+      ],
+      "epochs": 2000,
+      "learning_rate": 0.1
+    },
+    {
+      "name": "XOR",
+      "inputs": [
+        [0, 0],
+        [0, 1],
+        [1, 0],
+        [1, 1]
+      ],
+      "outputs": [
+        [0],
+        [1],
+        [1],
+        [0]
+      ],
+      "epochs": 4000,
+      "learning_rate": 0.1
+    },
+    {
+      "name": "NOT",
+      "inputs": [
+        [0],
+        [1]
+      ],
+      "outputs": [
+        [1],
+        [0]
+      ],
+      "epochs": 1500,
+      "learning_rate": 0.1
+    },
+    {
+      "name": "NAND",
+      "inputs": [
+        [0, 0],
+        [0, 1],
+        [1, 0],
+        [1, 1]
+      ],
+      "outputs": [
+        [1],
+        [1],
+        [1],
+        [0]
+      ],
+      "epochs": 2000,
+      "learning_rate": 0.1
+    },
+    {
+      "name": "NOR",
+      "inputs": [
+        [0, 0],
+        [0, 1],
+        [1, 0],
+        [1, 1]
+      ],
+      "outputs": [
+        [1],
+        [0],
+        [0],
+        [0]
+      ],
+      "epochs": 2000,
+      "learning_rate": 0.1
+    }
+  ]
+}
