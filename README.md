@@ -19,8 +19,7 @@ It’s a compact, from‑scratch C++11 implementation that covers gates like OR,
 - ⚙️ **JSON Configuration** - Easy parameter tuning without recompilation
 - 📊 **ASCII Visualization** - Decision boundary display in terminal
 - 📈 **Real-time Monitoring** - Loss tracking during training
-- 🏗️ **Clean Architecture** - Minimal, educational codebase
-- 🌍 **Cross-Platform** - Works on Windows, Linux, and macOS
+- Tested on Windows
 
 ## 🚀 Quick Start
 
