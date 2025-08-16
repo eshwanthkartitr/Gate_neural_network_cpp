@@ -5,11 +5,13 @@
 [![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](README.md)
 [![Platform](https://img.shields.io/badge/Platform-Cross--Platform-orange.svg)](README.md)
 
-> A clean, efficient C++ neural network implementation designed to train and visualize logic gates with JSON configuration support.
+> Faast af boiiii
 
 ## 🎯 Overview
 
-This project demonstrates fundamental neural network concepts through practical logic gate learning examples. Train all major logic gates (OR, AND, XOR, NOT, NAND, NOR) using a from-scratch neural network implementation with real-time visualization and monitoring.
+This project is a revisit of something I first built back in my first year using Python. The idea was simple: train a small neural network to learn the behavior of basic logic gates. This C++ version is cleaner, faster, and more structured, but still stays true to that original spirit of learning by building from scratch.
+
+It’s a compact, from‑scratch C++11 implementation that covers gates like OR, AND, XOR, NOT, NAND, and NOR. The goal is to make the code human‑friendly and easy to follow, while still showing the essential concepts of forward/backward propagation, activation functions, and training with gradient descent.
 
 ## ✨ Features
 
