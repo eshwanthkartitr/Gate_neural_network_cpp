@@ -51,16 +51,16 @@ make logic_gates
 
 ```
 neural-network-logic-gates/
-├── 📄 logic_gates_main.cpp    # Main program with JSON parser
-├── ⚙️ gates_config.json       # Gate configurations
-├── 🧠 NN.cpp                  # Neural network class
-├── 📊 layer.cpp               # Layer implementations
-├── ⚡ activation.cpp           # Activation functions
-├── 📉 losses.cpp              # Loss functions (BCE, MSE)
-├── 🔧 utils.cpp               # Utility functions
-├── 📋 main.cpp                # Original XOR example
-├── 🏗️ Makefile               # Build configuration
-└── 📖 README.md               # This file
+├──logic_gates_main.cpp    # Main program with JSON parser
+├── gates_config.json       # Gate configurations
+├──NN.cpp                  # Neural network class
+├──layer.cpp               # Layer implementations
+├──activation.cpp           # Activation functions
+├──losses.cpp              # Loss functions (BCE, MSE)
+├──utils.cpp               # Utility functions
+├──main.cpp                # Original XOR example
+├──Makefile               # Build configuration
+└──README.md               # This file
 ```
 
 ## ⚙️ Configuration
